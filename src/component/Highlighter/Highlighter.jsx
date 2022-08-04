@@ -129,23 +129,38 @@ class Highlighter extends React.Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <Tootlip
-          toolTipLocStyle={this.state.toolTipStyle}
-          onHighlight={(color) => this.highlightSelectedText(color)}
-          onRemove={() => this.removeHighlightSelection()}
-          onAddNote={(noteColor) => this.handleAddNote(noteColor)}
-          onRead={() => this.highlightTextReader()}
-        />
-        <StickyNote
-          stickyNoteStyle={this.state.stickyNoteStyle}
-          onCloseNote={() => this.handleCloseNote()}
-          onSave={(noteTxt) => this.saveNote(noteTxt)}
-          onDelete={() => this.deleteNote()}
-        />
-      </div>
-    );
+    if (this.props.annotator) {
+      return (
+        <div className="App">
+          <Tootlip
+            toolTipLocStyle={this.state.toolTipStyle}
+            onHighlight={(color) => this.highlightSelectedText(color)}
+            onRemove={() => this.removeHighlightSelection()}
+            onAddNote={(noteColor) => this.handleAddNote(noteColor)}
+            onRead={() => this.highlightTextReader()}
+            annotator={true}
+          />
+
+          <StickyNote
+            stickyNoteStyle={this.state.stickyNoteStyle}
+            onCloseNote={() => this.handleCloseNote()}
+            onSave={(noteTxt) => this.saveNote(noteTxt)}
+            onDelete={() => this.deleteNote()}
+          />
+        </div>
+      );
+    } else {
+      return (
+        <div className="App">
+          <Tootlip
+            toolTipLocStyle={this.state.toolTipStyle}
+            onHighlight={(color) => this.highlightSelectedText(color)}
+            onRemove={() => this.removeHighlightSelection()}
+            annotator={false}
+          />
+        </div>
+      );
+    }
   }
 
   storeSerializedHighlights = (hlId, hlColor, sr) => {

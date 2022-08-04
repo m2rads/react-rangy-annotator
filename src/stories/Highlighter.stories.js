@@ -4,10 +4,10 @@ import { Provider } from "react-redux";
 import { store } from "../component/app/store";
 import Highlighter from "../component/Highlighter/Highlighter";
 
-const stories = storiesOf("App Test", module);
+const stories = storiesOf("Highlighter Test", module);
 
 // Highlighter without Annotation option
-stories.add("App", () => {
+stories.add("Highlighter", () => {
   return (
     <>
       <Provider store={store}>
