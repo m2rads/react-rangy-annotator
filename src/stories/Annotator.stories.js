@@ -6,12 +6,12 @@ import Highlighter from "../component/Highlighter/Highlighter";
 
 const stories = storiesOf("App Test", module);
 
-// Highlighter without Annotation option
+// Highlighter with Annotation obtion
 stories.add("App", () => {
   return (
     <>
       <Provider store={store}>
-        <Highlighter annotator={false} localStorage={false} />
+        <Highlighter annotator={true} localStorage={false} />
       </Provider>
       <p>
         Hello world please run my highlighter module Hello world please run my
