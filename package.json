@@ -1,0 +1,67 @@
+{
+  "name": "accessnotes-annotator",
+  "version": "1.0.0",
+  "description": "React component library for annotaiting and highlighting web contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2rads/accessnotes-annotator.git"
+  },
+  "keywords": [
+    "react",
+    "highlighter",
+    "library"
+  ],
+  "author": "Mohammad Rad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m2rads/accessnotes-annotator/issues"
+  },
+  "homepage": "https://github.com/m2rads/accessnotes-annotator#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^1.7.0-rc.0",
+    "@types/rangy": "^0.0.34",
+    "escape-string-regexp": "^5.0.0",
+    "rangy": "^1.3.0",
+    "rangy-serializer": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.7.0-rc.0",
+    "@types/rangy": "^0.0.34",
+    "escape-string-regexp": "^5.0.0",
+    "rangy": "^1.3.0",
+    "rangy-serializer": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5"
+  }
+}
