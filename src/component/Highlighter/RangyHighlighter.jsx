@@ -6,7 +6,7 @@ import "rangy/lib/rangy-highlighter";
 import "rangy/lib/rangy-textrange";
 import "rangy/lib/rangy-serializer";
 import "rangy/lib/rangy-selectionsaverestore";
-import "./App.css";
+import "./Highlighter.css";
 import Tootlip from "../Tooltip/Tooltip";
 import StickyNote from "../StickyNote/StickyNote";
 import { clearNote, updated } from "../features/noteTxt/noteTxt-slice";

@@ -25,7 +25,6 @@
     "url": "https://github.com/m2rads/accessnotes-annotator/issues"
   },
   "homepage": "https://github.com/m2rads/accessnotes-annotator#readme",
-  "dependencies": {},
   "peerDependencies": {
     "@reduxjs/toolkit": "^1.7.0-rc.0",
     "react": "^18.2.0",
@@ -61,6 +60,7 @@
     "redux": "^4.2.0",
     "rollup": "^2.77.2",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
