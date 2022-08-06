@@ -1,5 +1,5 @@
 {
-  "name": "react-annotator",
+  "name": "react-rangy-highlighter",
   "version": "1.0.0",
   "description": "React component library for annotaiting and highlighting web contents",
   "main": "index.js",
