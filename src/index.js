@@ -1,1 +1,1 @@
-export * from "./component/Highlighter/Highlighter";
+export * from "./component/Highlighter";
