@@ -1,7 +1,5 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import { Provider } from "react-redux";
-import { store } from "../component/app/store";
 import Highlighter from "../component/Highlighter/Highlighter";
 
 const stories = storiesOf("Highlighter Test", module);
@@ -10,9 +8,7 @@ const stories = storiesOf("Highlighter Test", module);
 stories.add("Highlighter", () => {
   return (
     <>
-      <Provider store={store}>
-        <Highlighter annotator={false} localStorage={false} />
-      </Provider>
+      <Highlighter />
       <p>
         Football is a family of team sports that involve, to varying degrees,
         kicking a ball to score a goal. Unqualified, the word football normally

@@ -1,5 +1,5 @@
 {
-  "name": "accessnotes-annotator",
+  "name": "react-annotator",
   "version": "1.0.0",
   "description": "React component library for annotaiting and highlighting web contents",
   "main": "index.js",
@@ -15,7 +15,8 @@
   "keywords": [
     "react",
     "highlighter",
-    "library"
+    "library",
+    "annotator"
   ],
   "author": "Mohammad Rad",
   "license": "MIT",
