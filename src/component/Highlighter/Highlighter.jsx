@@ -2,7 +2,7 @@ import RangyHighlighter from "./RangyHighlighter";
 import { Provider } from "react-redux";
 import { store } from "../app/store";
 
-function Highlighter(props) {
+export function Highlighter(props) {
   return (
     <div>
       <Provider store={store}>
@@ -11,5 +11,3 @@ function Highlighter(props) {
     </div>
   );
 }
-
-export default Highlighter;
