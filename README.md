@@ -2,7 +2,7 @@
 
 Web annotation tool that allows users to apply highlights on the selected text and add annotations. 
 
-# Peer dependencies
+# Peer Dependencies
 
 react-rangy-highlighter relize on two dependencies. It utilizes the **[rangy/core][rangy]** which is a cross browser Javascript library that helps with processing user text selection.
 It also takes advantage of react-redux for updating anntotations across components seemlessly.
