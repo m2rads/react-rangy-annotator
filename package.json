@@ -62,9 +62,8 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-terser": "^7.0.2"
-  },
-  "dependencies": {
+    "rollup-plugin-terser": "^7.0.2",
     "postcss": "^8.4.16"
-  }
+  },
+  "dependencies": {}
 }
