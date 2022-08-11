@@ -1,6 +1,6 @@
 {
   "name": "react-rangy-highlighter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component library for annotaiting and highlighting web contents",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m2rads/accessnotes-annotator.git"
+    "url": "git+https://github.com/m2rads/react-rangy-highlighter.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "Mohammad Rad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/m2rads/accessnotes-annotator/issues"
+    "url": "https://github.com/m2rads/react-rangy-highlighter/issues"
   },
-  "homepage": "https://github.com/m2rads/accessnotes-annotator#readme",
+  "homepage": "https://github.com/m2rads/react-rangy-highlighter#readme",
   "peerDependencies": {
     "@reduxjs/toolkit": "^1.7.0-rc.0",
     "babel-loader": "^8.2.5",
