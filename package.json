@@ -2,7 +2,8 @@
   "name": "react-rangy-highlighter",
   "version": "1.0.0",
   "description": "React component library for annotaiting and highlighting web contents",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
